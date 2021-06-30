@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<A>
+    {% for reply in replyes %}
+    <url replyId="{{reply['unique_id']}}">{{BASE_DIR}}{{reply['Reply']}}</url>
+    {% endfor %}
+<ver>1</ver>
+</A>

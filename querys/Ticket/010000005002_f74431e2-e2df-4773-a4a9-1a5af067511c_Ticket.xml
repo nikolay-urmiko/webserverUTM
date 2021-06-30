@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<ns:Documents xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01" xmlns:oref="http://fsrar.ru/WEGAIS/ClientRef" xmlns:tc="http://fsrar.ru/WEGAIS/Ticket" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.0">
+    <ns:Owner>
+        <ns:FSRAR_ID>3463047</ns:FSRAR_ID>
+    </ns:Owner>
+    <ns:Document>
+        <ns:Ticket>
+            <tc:TicketDate>2021-06-29T15:48:17.718000</tc:TicketDate>
+            <tc:Identity/>
+            <tc:DocId/>
+            <tc:TransportId>5bd30e94-574e-47a4-8dc0-1bdca979d406</tc:TransportId>
+            <tc:RegID/>
+            <tc:DocHash/>
+            <tc:DocType>QueryRests_v2</tc:DocType>
+            <tc:Result>
+                <tc:Conclusion>Rejected</tc:Conclusion>
+                <tc:ConclusionDate>2021-06-29T15:48:17.719000</tc:ConclusionDate>
+                <tc:Comments>org.xml.sax.SAXException: ParseError at [row,col]:[1,50]
+Message: White spaces are required between publicId and systemId.
+javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,50]
+Message: White spaces are required between publicId and systemId.</tc:Comments>
+            </tc:Result>
+        </ns:Ticket>
+    </ns:Document>
+</ns:Documents>
